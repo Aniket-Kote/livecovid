@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Live Covid Data</title>
+    <script defer src="js/script.js"></script>
+</head>
+<body onload="show_data()">
+    <!-- here we are going to show
+    activeCases
+    activeCasesNew
+    recovered
+    deaths
+    totalCases
+    lastUpdatedAtApify -->
+
+<header class="header">
+    <div class="title">Covid Live data</div>
+</header>
+
+<main>
+    <div class="data">
+
+<div class="data_row">
+    <div class="data_item" style="background: green; ">
+           <div class="content">
+            Active Cases
+    </div>
+            <div id="activecases" class="record">
+
+            
+           </div>
+        </div>
+
+        <div class="data_item" style="background: rgb(255, 123, 0); ">
+            <div class="content">
+                Active Cases New
+        </div>
+                <div id="activecasesnew" class="record">
+
+                
+            </div>
+        </div>
+
+        <div class="data_item" style="background: rgb(238, 120, 140); ">
+            <div class="content">
+                Total Cases
+        </div>
+                <div id="totlacases" class="record">
+
+                
+            </div>
+        </div>
+
+</div>
+
+<div class="data_row">
+    <div class="data_item" style="background: blueviolet;">
+            <div class="content">
+                Recoverd
+            </div>    
+                <div id="recovered" class="record">
+
+                
+            </div>
+        </div>
+
+        <div class="data_item" style="background: rgba(255, 0, 0, 0.918); ">
+            <div class="content">
+                Deaths
+            </div>    
+                <div id="deaths" class="record">
+
+                
+            </div>
+        </div>
+
+        <div class="data_item" style="background: rgb(85, 85, 233);">
+            <div class="content">
+                Last Updated date
+            </div>    
+                <div id="lastUpdate" class="record">
+                    
+                
+            </div>
+        </div>
+</div>
+        
+        
+    </div>
+</main>
+
+<footer>
+    <p>Designed by AskNcapture</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+</body>
+</html>

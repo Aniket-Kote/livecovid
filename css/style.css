@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    
+    background: #449BF8;
+    box-shadow: 2px 2px 20px gray;
+    
+   
+    
+}
+
+header .title 
+{   
+    font-size: 3vw;
+    letter-spacing: 1vw;
+    font-family: 'Girassol', cursive;
+    padding: 2vw;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background:#b7daff ;
+}
+
+
+.data{
+
+   display: flex;
+   flex-direction: column;
+    align-items: justify;
+    justify-content: center;
+    
+}
+.data_row{
+    display: flex;
+  flex-wrap: nowrap;
+   justify-content:center;
+}
+.data_item{
+    
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+    border-radius: 1vw;
+    width: 20vw;
+    padding: 6vh;
+    float: left;
+    margin: 3vw;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.data_item:hover{
+    transform: scale(1.1);
+}
+.content{
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.record{
+    margin-top: 2vh;
+}
+
+
+footer{
+    margin-top: auto;
+    text-align: justify;
+    padding: 2vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width:600px) {
+    .data_row{
+        display: flex;
+        flex-direction : column;
+        align-items: center;
+        justify-content: center;
+    }
+    .data{
+        margin: auto 2vw;
+    }
+    .data_item{
+        width: 50vw;
+    }
+    .content{
+        
+        font-size: 4vw;
+        font-style: italic;
+    
+    }
+    header .title{
+        font-size: 7vw;
+    }
+}
