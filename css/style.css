@@ -59,6 +59,8 @@ body{
     color: white;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .data_item:hover{
     transform: scale(1.1);
@@ -73,6 +75,7 @@ body{
 
 .record{
     margin-top: 2vh;
+    
 }
 
 
