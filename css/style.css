@@ -90,6 +90,27 @@ footer{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.statewise_table{
+    overflow-x: scroll;
+}
+.state_wise{
+    text-align: center;
+}
+
+.state_wise table{
+    width: 50%;
+}
+
+.state_wise table th{
+    padding: 2vh;
+}
+.state_wise table td{
+    padding: 1vh;
+}
+
+.state_wise p{
+    font-size: 2rem;
+}
 @media only screen and (max-width:600px) {
     .data_row{
         display: flex;
@@ -111,5 +132,10 @@ footer{
     }
     header .title{
         font-size: 7vw;
+    }
+
+
+    .statewise_table{
+        margin: auto 1.5vw;
     }
 }
