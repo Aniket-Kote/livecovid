@@ -91,7 +91,7 @@ footer{
 }
 
 .statewise_table{
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 .state_wise{
     text-align: center;
